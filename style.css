@@ -1,1 +1,126 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fb-login-section {
+  max-width: 600px;
+  margin: auto;
+}
+.header {
+  background-color: #4267b2;
+  height: 32px;
+  overflow: hidden;
+}
+.logo-part {
+  color: #fff;
+  float: left;
+}
+.logo-part h2 {
+  padding: 3px;
+}
+.create-account {
+  float: right;
+}
+.create-account button {
+  padding: 6px 9px;
+  margin: 2px;
+  color: #fff;
+  background-color: #44a421;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.create-account button:hover {
+  background-color: #44882b;
+}
+.main-section {
+  background-color: rgb(236, 234, 234);
+}
+.content {
+  width: 97%;
+  margin: auto;
+}
+label {
+  display: block;
+  text-align-last: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(85, 82, 82);
+  padding: 5px 0;
+}
+.input-t {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.submit-btn {
+  width: 100%;
+  margin: 8px 0;
+  background-color: #4267b2;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  padding: 14px;
+  color: #fff;
+}
+.submit-btn:hover {
+  background-color: #344464;
+}
+.left {
+  width: 46%;
+  float: left;
+  margin-top: 3px;
+  transform: translateY(5px);
+}
+.right {
+  width: 46%;
+  float: right;
+  margin-top: 3px;
+  transform: translateY(5px);
+}
+.create-b-2 {
+  text-align: center;
+}
+.create-b-2 a button {
+  padding: 12px 20px;
+  background-color: #44a421;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  margin: 10px 0;
+  color: #fff;
+}
+.create-b-2 a button:hover {
+  background-color: #468330;
+}
+.f-password {
+  text-align: center;
+  padding: 15px;
+}
+.f-password a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4267b2;
+}
+.f-password a:hover {
+  background-color: rgb(124, 121, 121);
+  color: #fff;
+}
